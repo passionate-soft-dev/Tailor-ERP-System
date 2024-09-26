@@ -5,14 +5,12 @@ This is a Tailor ERP system built using **CodeIgniter**, designed to manage and 
 ## Table of Contents
 1. [Requirements](#requirements)
 2. [Installation](#installation)
-3. [Configuration](#configuration)
-4. [Database Setup](#database-setup)
-5. [Usage](#usage)
-6. [Folder Structure](#folder-structure)
-7. [Features](#features)
-8. [Troubleshooting](#troubleshooting)
-9. [Contributing](#contributing)
-10. [License](#license)
+3. [Usage](#usage)
+4. [Folder Structure](#folder-structure)
+5. [Features](#features)
+6. [Troubleshooting](#troubleshooting)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ## Requirements
 
@@ -27,59 +25,9 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
    ```bash
-   git https://github.com/YuriiLohvynenko/tailor-ERP.git
-   cd tailor-ERP
+   git https://github.com/passionate-soft-dev/Tailor-ERP-System.git
+   cd Tailor-ERP-System
 
-
-2. Install PHP dependencies:
-   ```bash
-   composer install
-
-3. Install JavaScript dependencies (if any):
-   ```bash
-   npm install
-
-4. Set folder permissions:
-   ```bash
-   chmod -R 777 application/cache
-   chmod -R 777 application/logs
-
-## Configuration
-
-1. **Configure the environment file:**
-   Copy the .env.example file and rename it to .env:
-   ```bash
-   cp .env.example .env
-
-   Open .env and set the appropriate environment variables for your database connection and app settings:
-
-   
-   APP_ENV=development
-   BASE_URL=http://localhost/tailor-erp
-   DB_HOST=localhost
-   DB_DATABASE=erp_db
-   DB_USERNAME=root
-   DB_PASSWORD=yourpassword
-
-2. **Apache/Nginx Configuration:**
-   Ensure your Apache or Nginx is pointing to the public directory of the project.
-
-   Example for Apache (in your VirtualHost):
-   ```bash
-   DocumentRoot "/path/to/tailor-erp/public"
-   <Directory "/path/to/tailor-erp/public">
-       AllowOverride All
-   </Directory>
-
-## Database Setup
-
-1. Create a new database:
-   ```bash
-   CREATE DATABASE erp_db;
-
-2. Import the database schema from the database/erp_db.sql file:
-   ```bash
-   mysql -u root -p erp_db < database/erp_db.sql
 
 ## Usage
 
