@@ -38,8 +38,8 @@ Before you begin, ensure you have met the following requirements:
    Visit the application at http://localhost:8080.
 
 2. **Default Admin Credentials:**
-- **Username:** admin
-- **Password:** admin123
+   - **Username:** admin
+   - **Password:** admin123
 
 ## Folder Structure
    ```bash
