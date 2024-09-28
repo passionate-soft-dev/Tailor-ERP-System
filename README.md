@@ -34,15 +34,15 @@ Before you begin, ensure you have met the following requirements:
 1. **Start the local development server (or configure with Apache/Nginx):**
    ```bash
    php spark serve
-
-Visit the application at http://localhost:8080.
+   ```
+   Visit the application at http://localhost:8080.
 
 2. **Default Admin Credentials:**
 - **Username:** admin
 - **Password:** admin123
 
 ## Folder Structure
-   
+   ```bash
    /application
        /controllers
        /models
@@ -57,7 +57,7 @@ Visit the application at http://localhost:8080.
    composer.json
    package.json
    README.md
-
+   ```
    - application/ - Contains the core CodeIgniter framework files and custom logic.
    - public/ - Public assets and index file.
    - database/ - Contains the initial SQL schema.
@@ -70,18 +70,17 @@ Visit the application at http://localhost:8080.
    - Reporting & Analytics
 
 ## Troubleshooting
+
 ### Common Issues:
 
    1. 500 Internal Server Error:
+      - Check file permissions for /application/cache and /application/logs.
+      - Ensure Apache/Nginx points to the public/ directory.
 
-   - Check file permissions for /application/cache and /application/logs.
-   - Ensure Apache/Nginx points to the public/ directory.
    2. Database Connection Error:
-
-   - Double-check your .env file for correct database credentials.
+      - Double-check your .env file for correct database credentials.
    3. Missing Dependencies:
-
-   - Run composer install and npm install to ensure all packages are installed.
+      - Run composer install and npm install to ensure all packages are installed.
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request. Contributions are welcome!
